@@ -1,4 +1,4 @@
-# django-delete-migrations
+# django-delete-migrations (building..)
 This helps you delete all the migration files of Django with simple command.
 
 ## Why django-delete-migrations?
