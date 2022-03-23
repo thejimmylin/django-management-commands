@@ -1,19 +1,25 @@
-# django-delete-migrations (building..)
-This helps you delete all the migration files of Django with simple command.
+# django-delete-migrations
 
-## Why django-delete-migrations?
-
-When you're working with a Django, sometimes database schema or some models thing go wrong and you will want to rebuild all of them.
+Some of my Django management commands.
 
 ## Usages
 
-Just like the other management commands of Django's.
+Just like the other Django management commands.
 
+1.
 ```
-python manage.py deletemigrations
+python manage.py dumpdatautf8
 ```
 
-**Done!**
+2.
+```
+python manage.py flushcontenttypes
+```
+
+3.
+```
+python manage.py flushmigrations
+```
 
 ## Meta
 
@@ -25,7 +31,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/j3ygh/rj3y/fork>)
+1. Fork it (<https://github.com/j3ygh/django-management-commands/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
